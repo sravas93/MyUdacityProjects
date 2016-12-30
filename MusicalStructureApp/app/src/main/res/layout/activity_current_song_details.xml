@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sravanthy.musicalstructureapp.CurrentSongDetails">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CustomStyle"
+        android:text="@string/this_activity_will_show_details_about_the_song_that_is_currently_playing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CustomStyle"
+        android:text="@string/an_image_of_the_artist_would_be_shown_this_image_would_be_loaded_off_the_ui_thread_by_using_a_library_like_picasso_or_glide"/>
+
+    <Button
+        android:id="@+id/playPauseSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_pause"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
+
+    <Button
+        android:id="@+id/launchBuySong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/purchase_song"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
+
+    <Button
+        android:id="@+id/launchHomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/return_to_launch_screen"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">HabitTrackerApp</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all code data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Records</string>
+
+    <!-- Title for the activity to add a new code [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_pet">Add a code</string>
+
+    <!-- Label for editor menu option to save code and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current code [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_mode">Mode</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_code_language_name">Name</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_code_practice_hours">Practice Hours</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="category_feeling">Feeling</string>
+
+    <!-- Label for dropdown menu option if the code's gender is unknown [CHAR LIMIT=20] -->
+    <string name="feeling_dubious">dubious</string>
+
+    <!-- Label for dropdown menu option if the code is male [CHAR LIMIT=20] -->
+    <string name="feeling_good">good</string>
+
+    <!-- Label for dropdown menu option if the code is female [CHAR LIMIT=20] -->
+    <string name="feeling_confident">confident</string>
+
+    <!-- Label for dropdown menu option if the code is male [CHAR LIMIT=20] -->
+    <string name="mode_offline">offline</string>
+
+    <!-- Label for dropdown menu option if the code is female [CHAR LIMIT=20] -->
+    <string name="mode_online">online</string>
+</resources>

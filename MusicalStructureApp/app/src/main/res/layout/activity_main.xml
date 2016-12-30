@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sravanthy.musicalstructureapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CustomStyle"
+        android:text="@string/this_is_the_main_launch_screen_and_provides_navigation_to_the_other_parts_of_the_program"/>
+
+    <Button
+        android:id="@+id/launchTop100RockSongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/top_100_rock_songs"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
+
+    <Button
+        android:id="@+id/launchTop100RapSongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/top_100_rap_songs"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
+
+    <Button
+        android:id="@+id/launchCurrentSongDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/currently_playing_song_details"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
+</LinearLayout>
+

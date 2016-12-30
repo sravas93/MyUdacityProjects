@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BookListing App</string>
+
+        <string name="txtSearch">Search String</string>
+        <string name="btnSearch">Search</string>
+        <string name="error_unable_retrieve">Unable to retrieve web page. URL may be invalid.</string>
+        <string name="error_no_connection">no connection</string>
+    </resources>
+

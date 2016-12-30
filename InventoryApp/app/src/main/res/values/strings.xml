@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="empty_list_text">Get started by adding a product</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Pets</string>
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+
+    <!--Toast that pops up if a pet was correctly inserted into the database [CHAR LIMIT=30] -->
+    <string name="editor_insert_product_successful">Product saved</string>
+
+    <!--Toast that pops up if a pet was correctly updated in the database [CHAR LIMIT=30] -->
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <!--Toast that pops up if a pet was not correctly inserted into the database [CHAR LIMIT=30] -->
+    <string name="editor_insert_product_failed">Error with saving product</string>
+
+    <!--Toast that pops up if a pet was not correctly updated in the database [CHAR LIMIT=30] -->
+    <string name="editor_update_product_failed">Error with updating product</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a pet</string>
+
+    <!-- Toast message in editor when current pet was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message in editor when current pet has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in catalog when all pets have been successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="catalog_delete_products_successful">Products deleted</string>
+
+    <!-- Toast message in catalog when all pets have failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="catalog_delete_products_failed">Error deleting products</string>
+
+    <string name="delete_all_products_dialog_msg">Delete all products?</string>
+
+    <!-- Dialog button text for the option to confirm deleting all pets [CHAR LIMIT=20] -->
+    <string name="delete_all_products">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of all pets [CHAR LIMIT=20] -->
+    <string name="cancel_delete_all_products">Cancel</string>
+
+    <!--List item text for a pet which has no name in the database [CHAR LIMIT=30]-->
+    <string name="list_item_unknown_name">Unknown Name</string>
+    <!--List item text for a pet which has no breed in the database [CHAR LIMIT=30]-->
+    <string name="list_item_unknown_quantity">Unknown Quantity</string>
+
+    <string name="price_formatted_text">$ %s</string>
+
+    <string name="string_extension">Name: %s</string>
+
+    <string name="quantity_extension">Quantity: %s</string>
+
+    <string name="name_dummy">Laptop</string>
+
+    <string name="quantity_dummy">10</string>
+
+    <string name="price_dummy">1000</string>
+
+
+</resources>

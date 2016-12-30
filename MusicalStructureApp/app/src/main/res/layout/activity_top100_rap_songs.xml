@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sravanthy.musicalstructureapp.Top100RapSongs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CustomStyle"
+        android:text="@string/this_activity_will_show_the_top_100_rap_songs_the_user_can_click_a_song_and_it_will_start_playing"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CustomStyle"
+        android:text="@string/this_screen_would_be_done_with_a_listview_and_adapter_instead_of_buttons_for_each_song"/>
+
+    <Button
+        android:id="@+id/playSong1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/play_song_1"
+        style="@style/CustomStyle"/>
+
+    <Button
+        android:id="@+id/playSong2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/play_song_2"
+        style="@style/CustomStyle"/>
+
+    <Button
+        android:id="@+id/playSong3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/play_song_3"
+        style="@style/CustomStyle"/>
+
+    <Button
+        android:id="@+id/launchHomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/return_to_launch_screen"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
+</LinearLayout>

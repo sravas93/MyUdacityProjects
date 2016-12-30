@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sravanthy.musicalstructureapp.BuySong">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomStyle"
+        android:text="@string/this_activity_will_allow_the_user_to_purchase_the_currently_playing_song"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomStyle"
+        android:text="@string/apis_libraries_to_enable_the_purchasing_the_following_payments_apis_will_be_considered_stripe_https_stripe_com_square_https_squareup_com"/>
+
+    <Button
+        android:id="@+id/purchaseSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finalize_purchase"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
+
+    <Button
+        android:id="@+id/launchHomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/return_to_launch_screen"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
+</LinearLayout>

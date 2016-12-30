@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_feeling_options">
+        <item>@string/feeling_dubious</item>
+        <item>@string/feeling_good</item>
+        <item>@string/feeling_confident</item>
+    </string-array>
+
+    <!-- These are the options displayed in the gender drop-down Spinner -->
+    <string-array name="array_mode_options">
+        <item>@string/mode_offline</item>
+        <item>@string/mode_online</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name= "app_name">Tour Guide</string>
+    <string name="historicalplaces">Historical Places</string>
+    <string name="wildlife">WildLife</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="cultures">Cultures</string>
+    <string name="mainactivity">MainActivity</string>
+    <string name="errorincreatingfragment">Error in creating fragment</string>
+    <string-array name="Tour_Guide">
+        <item>Historical Places</item>
+        <item>Wild Life</item>
+        <item>Restaurants</item>
+        <item>Cultures</item>
+    </string-array>
+</resources>

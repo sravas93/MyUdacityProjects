@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <TextView
+       style="@style/TestViewStyle"
+        android:text="1.What is APK in android?" />
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/a_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android pack"
+            android:textAppearance="?android:textAppearanceSmall" />
+        <RadioButton
+            android:id="@+id/b_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android packages"
+            android:textAppearance="?android:textAppearanceSmall" />
+        <RadioButton
+            android:id="@+id/c_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android packaging kit"
+            android:textAppearance="?android:textAppearanceSmall" />
+        <RadioButton
+            android:id="@+id/d_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None of the above"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:textAppearanceSmall" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/TestViewStyle"
+        android:text="2.What is fragment in android?" />
+
+        <CheckBox
+            android:id="@+id/aa_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JSON"
+            android:onClick="onCheckboxClicked"
+            android:textAppearance="?android:textAppearanceSmall" />
+        <CheckBox
+            android:id="@+id/bb_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peace of Activity"
+            android:onClick="onCheckboxClicked"
+            android:textAppearance="?android:textAppearanceSmall" />
+        <CheckBox
+            android:id="@+id/cc_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Layout"
+            android:onClick="onCheckboxClicked"
+            android:textAppearance="?android:textAppearanceSmall" />
+        <CheckBox
+            android:id="@+id/dd_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None of the above"
+            android:onClick="onCheckboxClicked"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        style="@style/TestViewStyle"
+        android:text="3.What is android view group??" />
+    <EditText
+        android:id="@+id/collection_Edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="collection"
+        android:text=""
+        android:layout_marginBottom="20dp"
+        android:inputType="text" />
+
+    <TextView
+        style="@style/TestViewStyle"
+        android:text="4.What is a thread in android?" />
+    <RadioGroup
+        android:id="@+id/rd1Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/aaaa_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Same as services"
+            android:textAppearance="?android:textAppearanceSmall" />
+        <RadioButton
+            android:id="@+id/bbbb_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Background activity"
+            android:textAppearance="?android:textAppearanceSmall" />
+        <RadioButton
+            android:id="@+id/cccc_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Broadcast Receiver"
+            android:textAppearance="?android:textAppearanceSmall" />
+        <RadioButton
+            android:id="@+id/dddd_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Independent dis-patchable unit is called a thread"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_marginBottom="20dp"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="submitAnswer"
+        android:textSize="18sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:onClick="resetQuestions"
+        android:textSize="18sp"
+        android:layout_marginLeft="150dp"/>
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Score"
+            android:textColor="#616161"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+          android:layout_marginLeft="90dp"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/quizScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="220dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+</LinearLayout>
+
+
+</ScrollView>

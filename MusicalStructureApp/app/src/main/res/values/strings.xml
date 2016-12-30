@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="currently_playing_song_details">Currently Playing Song Details</string>
+    <string name="top_100_rap_songs">Top 100 Rap Songs</string>
+    <string name="top_100_rock_songs">Top 100 Rock Songs</string>
+    <string name="this_is_the_main_launch_screen_and_provides_navigation_to_the_other_parts_of_the_program">This is the main launch screen and provides navigation to the other parts of the program.</string>
+    <string name="return_to_launch_screen">Return to Launch Screen</string>
+    <string name="purchase_song">Purchase Song</string>
+    <string name="apis_libraries_to_enable_the_purchasing_the_following_payments_apis_will_be_considered_stripe_https_stripe_com_square_https_squareup_com">APIs/Libraries: To enable the purchasing the following payments APIs will be considered: Stripe (https://stripe.com/), Square (https://squareup.com)</string>
+    <string name="this_activity_will_allow_the_user_to_purchase_the_currently_playing_song">This Activity will allow the user to purchase the currently playing song.</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="an_image_of_the_artist_would_be_shown_this_image_would_be_loaded_off_the_ui_thread_by_using_a_library_like_picasso_or_glide">An image of the artist would be shown. This image would be loaded off the UI thread by using a library like Picasso or Glide.</string>
+    <string name="this_activity_will_show_details_about_the_song_that_is_currently_playing">This Activity will show details about the song that is currently playing.</string>
+    <string name="this_activity_will_show_the_top_100_rap_songs_the_user_can_click_a_song_and_it_will_start_playing">This Activity will show the Top 100 Rap Songs. The user can click a song and it will start playing.</string>
+    <string name="this_screen_would_be_done_with_a_listview_and_adapter_instead_of_buttons_for_each_song">This screen would be done with a ListView and adapter instead of buttons for each song.</string>
+    <string name="play_song_1">Play Song #1</string>
+    <string name="play_song_2">Play Song #2</string>
+    <string name="play_song_3">Play Song #3</string>
+    <string name="this_activity_will_show_the_top_100_rock_songs_the_user_can_click_a_song_and_it_will_start_playing">This Activity will show the Top 100 Rock Songs. The user can click a song and it will start playing.</string>
+    <string name="finalize_purchase">Finalize Purchase</string>
+</resources>

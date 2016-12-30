@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.firstproject.MainActivity">
+
+    <ImageView
+        android:id="@+id/restaurant1"
+        android:src="@drawable/restaurant1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/IndianRestaurant"
+        android:text="Indian Restaurant"
+        android:layout_alignBottom="@+id/restaurant1"
+        android:textSize="28sp"
+        android:textColor="#E0F7FA"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/restaurant1"
+        android:id="@+id/lnrlayout">
+
+
+    <ImageView
+        android:id="@+id/location"
+        android:src="@drawable/location"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:text="204,5th Main,7th Cross,Indiranagar I Stage,Bangalore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/location"
+        android:textStyle="bold"
+        android:paddingTop="33dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnrlayout"
+        android:id="@+id/layout">
+
+     <ImageView
+         android:src="@drawable/contact"
+         android:layout_width="55dp"
+         android:layout_height="wrap_content"
+         android:paddingRight="15dp"
+         android:paddingLeft="19dp"
+         android:paddingBottom="15dp"
+         android:layout_alignBottom="@+id/lnrlayout"/>
+
+     <TextView
+         android:text="9086652757"
+         android:id="@+id/num"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout" >
+
+     <ImageView
+         android:src="@drawable/website"
+         android:id="@+id/website"
+         android:layout_width="55dp"
+         android:layout_height="wrap_content"
+         android:paddingRight="15dp"
+         android:paddingLeft="25dp"
+         android:paddingTop="3dp"
+         android:paddingBottom="25dp"
+         android:layout_alignBottom="@+id/layout" />
+
+    <TextView
+        android:text="www.indianrestuarant.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:text="DESCRIPTION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2"
+        android:textStyle="bold"
+        android:id="@+id/des"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="15dp"/>
+
+    <TextView
+        android:text="Design-conscious dining room with a funky atmosphere for a range of international dishes."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_below="@+id/des"
+        />
+
+</RelativeLayout>
